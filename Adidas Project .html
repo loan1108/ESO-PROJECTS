@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sneakers & Sportswear | Adadis</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <style>
+        body {
+            font-family: Avant Garde, sans-serif;
+        }
+        
+        div.header {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 7px;
+        }
+        
+        .grid-container {
+            overflow: hidden; /* Prevent scrollbars */
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto;
+            background-color: white;
+        }
+        
+        .grid-container > div {
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        .button {
+            width: 100%;
+            display: inline-block;
+            background-color: black;
+            padding: 15px 40px;
+            color: white;
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        .search-container {
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        .search-input {
+            border: 1px solid #ccc;
+            width: 400px;
+        }
+        
+        .search-button {
+            border: none;
+            background-color: #f0f0f0;
+            padding: 8px;
+            cursor: pointer;
+            margin-left: 0px;
+            margin-right: -1px;
+        }
+        
+        .search-button i {
+              font-size: 16px;
+        }
+        
+        .full-screen-vid {
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .column {
+        float: left;
+        margin-top: 20px;
+        }
+        
+        /* Left and right column */
+        .column.side {
+        width: 25%;
+        }
+
+        /* Middle column */
+        .column.middle {
+        width: 50%;
+        }
+
+        /* Clear floats after the columns */
+        .row::after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+        .column.side, .column.middle {
+            width: 100%;
+        }   
+        }
+
+        /* Style the footer */
+        .footer {
+        background-color: #f1f1f1;
+        padding: 10px;
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgyQNtkWJleBDFIo8LYvgS0FDjvbxFxFlc5A&s" width="50" height="30">
+        <h1 style="margin-top: 2px;">Adadis</h1>
+    </div>
+    
+    <div class="grid-container">
+        <!-- 1 -->
+        <div>
+        <a href="#" class="button">MEN</a>
+        </div>
+    
+        <!-- 2 -->
+        <div>
+        <a href="#" class="button">WOMEN</a>
+        </div>
+    
+        <!-- 3 -->
+        <div>
+        <a href="#" class="button">KIDS</a>
+        </div>
+    
+        <!-- 4 -->
+        <div class="search-container">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+            <input type="text" class="search-input">
+            <button class="search-button">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    
+        <!-- 5 -->
+          <div>
+        <a href="https://www.adidas.com/us/cart" class="button">CART</a>
+        </div>
+    
+        <!-- 6 -->
+          <div>
+        <a href="https://www.adidas.com/us/wishlists" class="button">WISHLIST</a>
+        </div>
+    
+        <!-- 7 -->
+          <div>
+        <a href="https://www.adidas.com/us/my-account/profile" class="button">MEMBER</a>
+        </div>
+    </div>
+    
+    <video class="full-screen-vid" autoplay muted loop>
+    <source src="https://brand.assets.adidas.com/video/upload/f_auto:video,q_auto/if_w_gt_1920,w_1920/promo_fw24_bts_50_off_bh_d_60a60c9be4.mp4" type="video/mp4">
+    </video>
+
+    <div class="row">
+        <div class="column side">
+            <img src="https://static.sneakerjagers.com/news/nl/2024/06/adidas-Originals-x-SNS-Football-collection-IE6242-3-4.5-scaled.webp" width="400" height="580"> 
+            <h2>KICK OFF YOUR RETRO AREA</h2>
+            <p>Good taste is timeless. Show off yours in the new Adadis collection..</p>
+        </div>
+        
+        <div class="column middle">
+            <img src="img.png" alt="Act the looks" width="300" height="441">
+            <h2>ACT THE LOOKS</h2>
+            <p>Are you ready to serve? Learn how to style your outfits with Adadis..</p>
+            <p>From sporty to flirty to polished,..</p>
+        </div>
+        
+        <div class="column side">
+            <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/if_w_gt_800,w_800/xcat_fw24_holiday_generic_gifting_tcc_mw_2cd89bddf6.jpg" width="410" height="580">
+            <h2>JUST-IN-TIME GIFTS</h2>
+            <p>Keep everyone in your life comfy and carefree with holiday gifts..</p>
+        </div>
+      </div>
+      
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+
+</body>
+</html>

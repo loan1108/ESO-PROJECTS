@@ -1,0 +1,33 @@
+p{
+    color:brown;
+     font-family: sans-serif, lucida sans , Arial;
+     text-align:inherit;
+}
+.le{
+    color: blueviolet; font-size: 20px;
+}
+.chan{
+    color:chocolate;font-style:italic;
+    text-decoration:dotted underline
+}
+#para3{
+    color:azure;font-weight: 600;
+    text-decoration:underline ;
+}
+
+
+h2{
+    color: green;
+    font-family: sans-serf, tis , arial; 
+    font-style: italic ;
+    text-decoration: dotted underline ;
+    
+}
+.le1{
+    color: blue;
+    font-size: 10px;
+}
+#special{
+    color:white ;
+    font-weight: 80120 ;
+}

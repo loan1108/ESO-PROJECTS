@@ -1,0 +1,15 @@
+
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-image: linear-gradient(to right, rgba(255,255,255, 0.7) 0 100%), url(assets/img/background\ img.webp);
+}
+.grid-item{
+    padding:20px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+img{
+    width:100%; 
+}
